@@ -59,8 +59,14 @@ Is fully hosted and reproducible on Vercel
 .
 ├── index.html        # Portfolio frontend
 ├── data.json         # Profile data (acts as DB)
-├── api/me.js         # Single serverless function for all endpoints
+├── api/              # Serverless API routes
+│   ├── health.js     # Liveness check endpoint
+│   ├── profile.js    # Profile data endpoint
+│   ├── projects.js   # Projects list + filter by skill
+│   ├── skills.js     # Skills ranked by usage
+│   └── search.js     # Search across projects, skills, work
 └── README.md         # Project documentation
+
 ```
 
 ---
@@ -165,6 +171,7 @@ curl "https://bhavesh-badhe.vercel.app/api/search?q=testing"
 ```
 
 ---
+
 
 
 
