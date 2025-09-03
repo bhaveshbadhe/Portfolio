@@ -129,8 +129,15 @@
         
         /* Push main content below fixed navbar */
 body {
-    padding-top: 80px; /* Adjust this based on navbar height */
+    padding-top: 80px; /* space for fixed navbar */
 }
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px; /* slightly smaller for mobile navbar */
+    }
+}
+
 
 
         /* Hero Section */
