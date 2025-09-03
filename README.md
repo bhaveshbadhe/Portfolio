@@ -1,11 +1,14 @@
 
 # 🌐 Bhavesh's Portfolio + Me-API Playground
 
-Welcome to my personal portfolio website! 🚀
-This project showcases my skills, projects, and experiences as a **B.Tech IT (Last Year)** student at **Manipal University Jaipur**.
+This project combines my personal portfolio with a backend API playground built for the Track A Backend Assessment.
+It highlights my skills, projects, and experiences as a B.Tech IT (2026) student at Manipal University Jaipur, and extends them with a production-minded backend that:
 
-It has been extended with a **Me-API Playground (Track A Assessment)** — a backend API that stores my profile data in a schema (`data.json`) and exposes it via REST endpoints.
+Stores my profile data in a structured schema (data.json)
 
+Exposes it through clean, RESTful API endpoints
+
+Is fully hosted and reproducible on Vercel
 ---
 
 ## 📌 Features
@@ -162,5 +165,6 @@ curl "https://bhavesh-badhe.vercel.app/api/search?q=testing"
 ```
 
 ---
+
 
 
