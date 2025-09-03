@@ -48,7 +48,7 @@ Is fully hosted and reproducible on Vercel
   * [Health Check](https://bhavesh-badhe.vercel.app/api/health)
   * [Profile](https://bhavesh-badhe.vercel.app/api/profile)
   * [Projects (Python)](https://bhavesh-badhe.vercel.app/api/projects?skill=python)
-  * [Top Skills](https://bhavesh-badhe.vercel.app/api/skills/top)
+  * [Top Skills](https://bhavesh-badhe.vercel.app/api/skills?utm_source=chatgpt.com)
   * [Search "penetration"](https://bhavesh-badhe.vercel.app/api/search?q=penetration)
 
 ---
@@ -171,6 +171,7 @@ curl "https://bhavesh-badhe.vercel.app/api/search?q=testing"
 ```
 
 ---
+
 
 
 
