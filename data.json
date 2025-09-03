@@ -1,0 +1,74 @@
+{
+  "profile": {
+    "name": "Bhavesh Badhe",
+    "email": "badhebhavesh0706@gmail.com",
+    "phone": "+91 9904524269",
+    "education": [
+      {
+        "degree": "B.Tech, Information Technology",
+        "institution": "Manipal University Jaipur",
+        "location": "Jaipur, India",
+        "cgpa": "6.68",
+        "expected": "2026"
+      },
+      {
+        "degree": "Diploma of Engineering, Information Technology",
+        "institution": "Government Polytechnic Daman",
+        "location": "Daman, India",
+        "cgpa": "7.45",
+        "year": "2023"
+      }
+    ],
+    "skills": [
+      "Python", "Java", "SQL", "Bash",
+      "Networking (TCP/IP, Routing, DNS, SDN, Virtualization)",
+      "Linux", "Ubuntu", "Windows Server",
+      "Penetration Testing", "Vulnerability Assessment", "Security Testing",
+      "Burp Suite", "Wireshark", "Nmap", "Metasploit", "Kali Linux",
+      "Postman", "Selenium", "JUnit", "TestNG", "JIRA"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "title": "Mininet-Based Network Security & Server Simulation",
+        "description": "Simulated SDN-based networks using Mininet, executed attack scenarios, and tested security algorithm effectiveness.",
+        "links": [],
+        "skills": ["Networking", "SDN", "Mininet", "Cybersecurity"]
+      },
+      {
+        "id": 2,
+        "title": "MUJ Project Allocation Portal",
+        "description": "Performed penetration and security testing using Burp Suite, Wireshark, Nmap, Selenium, Postman, and JIRA; identified and fixed workflow and data-flow vulnerabilities.",
+        "links": [],
+        "skills": ["Penetration Testing", "API Testing", "Automation"]
+      },
+      {
+        "id": 3,
+        "title": "Real-Time Face Recognition Attendance System",
+        "description": "Built with Python, OpenCV, and MySQL to automate student attendance using face recognition.",
+        "links": [],
+        "skills": ["Python", "OpenCV", "MySQL"]
+      }
+    ],
+    "work": [
+      {
+        "company": "TEC Spartans",
+        "role": "Software Tester",
+        "from": "Jun 2024",
+        "to": "Dec 2024",
+        "description": "Created and executed test cases, performed functional/regression testing, reported bugs, and collaborated with developers to validate fixes."
+      }
+    ],
+    "certifications": [
+      "Junior Cybersecurity Analyst Career Path — Cisco (Apr 2025)",
+      "JNCAA Automation and DevOps, Associate — Juniper Networks (Aug 2025)",
+      "Python Essentials 1 & 2 — Cisco (Apr 2025)",
+      "Google Cloud Study Jam — GDG MUJ (Jan 2024)"
+    ],
+    "links": {
+      "github": "https://github.com/bhaveshbadhe",
+      "linkedin": "https://www.linkedin.com/in/bhavesh-badhe/",
+      "portfolio": "https://bhavesh-badhe.vercel.app"
+    }
+  }
+}
