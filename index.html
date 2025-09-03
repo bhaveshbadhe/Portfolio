@@ -1227,31 +1227,37 @@
                     </div>
                 </div>
 
-                <div class="contact-form fade-up">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
+<div class="contact-form fade-up">
+    <form id="contactForm" action="https://formsubmit.co/badhebhavesh0706@gmail.com" method="POST">
+        
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
 
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
 
-                        <div class="form-group">
-                            <label for="company">Company/Organization</label>
-                            <input type="text" id="company" name="company">
-                        </div>
+        <div class="form-group">
+            <label for="company">Company/Organization</label>
+            <input type="text" id="company" name="company">
+        </div>
 
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Tell me about the opportunity or project you'd like to discuss..." required></textarea>
-                        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about the opportunity or project you'd like to discuss..." required></textarea>
+        </div>
 
-                        <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
-                    </form>
-                </div>
+        <!-- Optional hidden fields for better UX -->
+        <input type="hidden" name="_captcha" value="false"> <!-- disables captcha -->
+        <input type="hidden" name="_next" value="https://portfolio-jaymentcv-bhavesh-badhes-projects.vercel.app/thank-you.html"> <!-- redirect after submit -->
+
+        <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+    </form>
+</div>
+
             </div>
         </div>
     </section>
