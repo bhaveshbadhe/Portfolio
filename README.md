@@ -1,11 +1,8 @@
-Absolutely 👍 — here’s the **complete README.md text** that you can copy-paste directly into your project:
-
----
 
 # 🌐 Bhavesh's Portfolio + Me-API Playground
 
 Welcome to my personal portfolio website! 🚀
-This project showcases my skills, projects, and experiences as a **B.Tech IT (3rd Year)** student at **Manipal University Jaipur**.
+This project showcases my skills, projects, and experiences as a **B.Tech IT (Last Year)** student at **Manipal University Jaipur**.
 
 It has been extended with a **Me-API Playground (Track A Assessment)** — a backend API that stores my profile data in a schema (`data.json`) and exposes it via REST endpoints.
 
@@ -165,3 +162,4 @@ curl "https://bhavesh-badhe.vercel.app/api/me/search?q=testing"
 ```
 
 ---
+
