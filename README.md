@@ -1,8 +1,3 @@
-Nice 🚀 glad to hear your portfolio is live now! 🎉
-Let’s update your `README.md` with the **working live link**:
-
----
-
 # 🌐 Bhavesh's Portfolio
 
 Welcome to my personal portfolio website! 🚀
