@@ -19,12 +19,12 @@ It has been extended with a **Me-API Playground (Track A Assessment)** — a bac
 
 ### API Playground
 
-* `GET /api/me/health` → health check
-* `GET /api/me/profile` → my complete profile
-* `GET /api/me/projects` → list of projects
-* `GET /api/me/projects?skill=python` → filter projects by skill
-* `GET /api/me/skills/top` → most-used skills across projects
-* `GET /api/me/search?q=...` → search in profile/projects/work
+* `GET /api/health` → health check
+* `GET /api/profile` → my complete profile
+* `GET /api/projects` → list of projects
+* `GET /api/projects?skill=python` → filter projects by skill
+* `GET /api/skills/top` → most-used skills across projects
+* `GET /api/search?q=...` → search in profile/projects/work
 
 ---
 
@@ -42,11 +42,11 @@ It has been extended with a **Me-API Playground (Track A Assessment)** — a bac
 * Portfolio: [https://bhavesh-badhe.vercel.app/](https://bhavesh-badhe.vercel.app/)
 * Example Endpoints:
 
-  * [Health Check](https://bhavesh-badhe.vercel.app/api/me/health)
-  * [Profile](https://bhavesh-badhe.vercel.app/api/me/profile)
-  * [Projects (Python)](https://bhavesh-badhe.vercel.app/api/me/projects?skill=python)
-  * [Top Skills](https://bhavesh-badhe.vercel.app/api/me/skills/top)
-  * [Search "penetration"](https://bhavesh-badhe.vercel.app/api/me/search?q=penetration)
+  * [Health Check](https://bhavesh-badhe.vercel.app/api/health)
+  * [Profile](https://bhavesh-badhe.vercel.app/api/profile)
+  * [Projects (Python)](https://bhavesh-badhe.vercel.app/api/projects?skill=python)
+  * [Top Skills](https://bhavesh-badhe.vercel.app/api/skills/top)
+  * [Search "penetration"](https://bhavesh-badhe.vercel.app/api/search?q=penetration)
 
 ---
 
@@ -125,11 +125,11 @@ Example:
 ## 🧪 Sample Queries
 
 ```bash
-curl https://bhavesh-badhe.vercel.app/api/me/health
-curl https://bhavesh-badhe.vercel.app/api/me/profile
-curl "https://bhavesh-badhe.vercel.app/api/me/projects?skill=python"
-curl https://bhavesh-badhe.vercel.app/api/me/skills/top
-curl "https://bhavesh-badhe.vercel.app/api/me/search?q=testing"
+curl https://bhavesh-badhe.vercel.app/api/health
+curl https://bhavesh-badhe.vercel.app/api/profile
+curl "https://bhavesh-badhe.vercel.app/api/projects?skill=python"
+curl https://bhavesh-badhe.vercel.app/api/skills/top
+curl "https://bhavesh-badhe.vercel.app/api/search?q=testing"
 ```
 
 ---
@@ -162,4 +162,5 @@ curl "https://bhavesh-badhe.vercel.app/api/me/search?q=testing"
 ```
 
 ---
+
 
